@@ -3199,4 +3199,19 @@ function createMdxFileFromLocationByRegion() {
   });
 }
 
-createMdxFileFromLocationByRegion();
+function createMetaFileFromLocation() {
+  const mapped = locations
+    .filter((x) => x.region.name === "Dorne")
+    .map((location) => ({
+      [location.slug]: location.title,
+    }));
+
+  const flat = Object.assign({}, ...mapped);
+
+  fs.writeFileSync(
+    "./pages/builds/dorne/_meta.json",
+    JSON.stringify(flat, null, 2)
+  );
+}
+
+createMetaFileFromLocation();
