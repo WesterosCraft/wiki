@@ -1,0 +1,170 @@
+[
+  {
+    "guideCategory": {
+      "title": "Getting Started"
+    },
+    "slug": {
+      "current": "multimc-launcher-setup"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Getting Started"
+    },
+    "slug": {
+      "current": "curseforge-launcher-setup"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "How To"
+    },
+    "slug": {
+      "current": "basic-building-guide-for-applicants"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Rules And Guidelines"
+    },
+    "slug": {
+      "current": "canon-project-application-guidelines"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Getting Started"
+    },
+    "slug": {
+      "current": "westeroscraft-custom-launcher"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "How To"
+    },
+    "slug": {
+      "current": "installing-the-macro-keybind"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Getting Started"
+    },
+    "slug": {
+      "current": "gdlauncher-setup"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "How To"
+    },
+    "slug": {
+      "current": "block-usage-guide"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Resources"
+    },
+    "slug": {
+      "current": "custom-resource-pack"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Resources"
+    },
+    "slug": {
+      "current": "frequently-asked-questions"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Rules And Guidelines"
+    },
+    "slug": {
+      "current": "general-building-guidelines"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Rules And Guidelines"
+    },
+    "slug": {
+      "current": "immersion-build-application-guidelines"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Getting Started"
+    },
+    "slug": {
+      "current": "manually-building-the-custom-client"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Resources"
+    },
+    "slug": {
+      "current": "map-repository"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "How To"
+    },
+    "slug": {
+      "current": "new-builders-guide"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Rules And Guidelines"
+    },
+    "slug": {
+      "current": "official-no-redo-rule"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Resources"
+    },
+    "slug": {
+      "current": "projects-orphanage"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Resources"
+    },
+    "slug": {
+      "current": "schem-sets"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Rules And Guidelines"
+    },
+    "slug": {
+      "current": "server-rules"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "Resources"
+    },
+    "slug": {
+      "current": "troubleshooting-guide"
+    }
+  },
+  {
+    "guideCategory": {
+      "title": "How To"
+    },
+    "slug": {
+      "current": "worldedit-basics"
+    }
+  }
+]

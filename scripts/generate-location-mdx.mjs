@@ -3193,7 +3193,7 @@ function createMdxFileFromLocationByRegion() {
     if (location.region.name === "Iron Islands") {
       fs.writeFileSync(
         `./pages/builds/iron-islands/${location.slug}.mdx`,
-        `## ` + location.title
+        `# ` + location.title
       );
     }
   });

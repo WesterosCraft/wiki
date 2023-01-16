@@ -1,5 +1,26 @@
 {
   "index": "Home",
-  "guides": "Guides",
-  "builds": "Builds"
+  "-- Guides --": {
+    "type": "separator",
+    "title": "Guides"
+  },
+  "getting-started": "Getting Started",
+  "how-to": "How To",
+  "resources": "Resources",
+  "rules-and-guidelines": "Rules & Guidelines",
+  "-- Builds --": {
+    "type": "separator",
+    "title": "Builds"
+  },
+  "beyond-the-wall": "Beyond the Wall",
+  "crownlands": "Crownlands",
+  "dorne": "Dorne",
+  "iron-islands": "Iron Islands",
+  "north": "North",
+  "reach": "Reach",
+  "riverlands": "Riverlands",
+  "stormlands": "Stormlands",
+  "the-wall": "The Wall",
+  "vale": "Vale",
+  "westerlands": "Westerlands"
 }
