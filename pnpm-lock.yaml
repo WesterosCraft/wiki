@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@sanity/block-content-to-markdown': ^0.0.5
+  '@sanity/image-url': ^1.0.1
   '@types/node': 18.11.10
   next: ^13.1.2
   nextra: 2.2.3
   nextra-theme-docs: 2.2.3
+  prettier: ^2.8.3
   react: ^18.2.0
   react-dom: ^18.2.0
   typescript: ^4.9.3
@@ -19,7 +21,9 @@ dependencies:
 
 devDependencies:
   '@sanity/block-content-to-markdown': 0.0.5
+  '@sanity/image-url': 1.0.1
   '@types/node': 18.11.10
+  prettier: 2.8.3
   typescript: 4.9.4
 
 packages:
@@ -339,6 +343,11 @@ packages:
 
   /@sanity/image-url/0.140.22:
     resolution: {integrity: sha512-CAmQZnj+KM7FSEYiWlIGDit072syicYuAw0w7R2ctMzHiZ4p9mE/g6dBnYqrqFUrw2J+GpJgPt+RVspKP8vdqA==}
+    engines: {node: '>=10.0.0'}
+    dev: true
+
+  /@sanity/image-url/1.0.1:
+    resolution: {integrity: sha512-AdKQ3zMk7WdoNwoJPrAvQhW+kUtBldBX0nHtnGy+rwmgsCQ0rAXasrgH43Fhmsp/yB6piiq+F2d5qEuBFsdQVg==}
     engines: {node: '>=10.0.0'}
     dev: true
 
@@ -1759,6 +1768,12 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: false
+
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
 
   /property-information/6.2.0:
     resolution: {integrity: sha512-kma4U7AFCTwpqq5twzC1YVIDXSqg6qQK6JN0smOw8fgRy1OkMi0CYSzFmsy6dnqSenamAtj0CyXMUJ1Mf6oROg==}
