@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@sanity/asset-utils': ^1.3.0
   '@sanity/block-content-to-markdown': ^0.0.5
   '@sanity/image-url': ^1.0.1
   '@types/node': 18.11.10
@@ -20,6 +21,7 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
 
 devDependencies:
+  '@sanity/asset-utils': 1.3.0
   '@sanity/block-content-to-markdown': 0.0.5
   '@sanity/image-url': 1.0.1
   '@types/node': 18.11.10
@@ -321,6 +323,11 @@ packages:
   /@popperjs/core/2.11.6:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
+
+  /@sanity/asset-utils/1.3.0:
+    resolution: {integrity: sha512-uyIOtGA4Duf+68I3BSbYHY5P+WGftn3QtNJD2Pn7h9WPGYsSrWViIPebE9yRN8N0NHhYj+hDQXaMpVdjG7r+zA==}
+    engines: {node: '>=10'}
+    dev: true
 
   /@sanity/block-content-to-hyperscript/2.0.10:
     resolution: {integrity: sha512-xT3iEmZkK0fvO5PDFpn9GMWGfvOopvbrRCBU48XxpFoTxRrfsHhxbRy8J0eND1HGXHUENkIKv5jbohtGd1MiVg==}
