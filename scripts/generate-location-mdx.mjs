@@ -60,6 +60,10 @@ export const urlForImage = source => imageBuilder.image(source);
 const serializers = {
   types: {
     callout: props => '\n<Callout>\n' + props.node.text + '\n</Callout>\n',
+    video: props =>
+      `\n[![Watch the video](https://img.youtube.com/vi/${props.node.url
+        .split('/')
+        .pop()}/0.jpg)](${props.node.url})\n`,
     file: props =>
       `\n<video controls autoplay>
     <source src="${
@@ -91,9 +95,28 @@ function createMdxFileFromLocationByRegion() {
             );
           }
 
+          if (location.additionalImages?.images && location.additionalImages.images.length > 0) {
+            stringToRender.push(`import Image from 'next/image';\n\n`);
+          }
+
           if (location?.title) {
-            const title = `# ${location.title}\n`;
+            const title = `# ${location.title}\n\n`;
             stringToRender.push(title);
+
+            if (location.additionalImages?.images && location.additionalImages.images.length > 0) {
+              stringToRender.push(
+                `<Image src="${urlForImage(location?.additionalImages?.images[0].asset._ref)
+                  .auto('format')
+                  .fit('crop')
+                  .crop('center')
+                  .height(350)
+                  .width(976)}" alt="${location.title}" width={976} height={350}  />\n\n`,
+              );
+            }
+
+            // ({ src = '', width = 976 }) => {
+            //   return `${src}?fit=crop&auto=format&crop=center&h=350&w=${width}&q=90`;
+            // };
 
             const line1 = `<ProjectDetails\n`;
             stringToRender.push(line1);
@@ -120,14 +143,29 @@ function createMdxFileFromLocationByRegion() {
             const projectLead = `  projectLead="${location.projectLead}"\n`;
             stringToRender.push(projectLead);
 
-            const dateStarted = `  dateStarted="${location.dateStarted}"\n`;
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const event = new Date(location.dateStarted);
+            const dateStarted = `  dateStarted="${event.toLocaleDateString('en-US', options)}"\n`;
             stringToRender.push(dateStarted);
 
-            const dateCompleted = `  dateCompleted="${location.dateCompleted}"\n`;
+            const event2 = new Date(location.dateCompleted);
+            const dateCompleted = `  dateCompleted="${event2.toLocaleDateString(
+              'en-US',
+              options,
+            )}"\n`;
             stringToRender.push(dateCompleted);
 
-            const lastLine = `/>\n`;
+            const lastLine = `/>\n\n`;
             stringToRender.push(lastLine);
+          }
+
+          if (location.body) {
+            const convertedBody = toMarkdown(location.body, {
+              serializers,
+              projectId: '1as7cn02',
+              dataset: 'production',
+            });
+            stringToRender.push(convertedBody);
           }
 
           return stringToRender.join('');

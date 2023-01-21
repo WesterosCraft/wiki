@@ -24,7 +24,7 @@ export const ProjectDetails = ({
   return (
     <table
       className={`table-auto divide-y divide-gray-200 border border-slate-300 ${
-        floatRight ? 'float-right ml-3' : ''
+        floatRight ? 'float-right ml-3 mt-6' : ''
       }`}
     >
       <thead className="bg-gray-50">
