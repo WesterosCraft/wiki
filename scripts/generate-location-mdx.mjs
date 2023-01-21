@@ -73,13 +73,69 @@ const serializers = {
   },
 };
 
+function cap(str) {
+  const result = str.replace(/([A-Z])/g, ' $1');
+  return result.charAt(0).toUpperCase() + result.slice(1);
+}
+
 function createMdxFileFromLocationByRegion() {
   locationFolders.forEach(folder =>
     locations.forEach(location => {
       if (location.region.name === folder.title) {
+        const getStringToRender = () => {
+          const stringToRender = [];
+
+          if (location.region) {
+            stringToRender.push(
+              `import { ProjectDetails } from '../../components/ProjectDetails';\n\n`,
+            );
+          }
+
+          if (location?.title) {
+            const title = `# ${location.title}\n`;
+            stringToRender.push(title);
+
+            const line1 = `<ProjectDetails\n`;
+            stringToRender.push(line1);
+
+            if (location.body && location.body.length > 0) {
+              stringToRender.push(`  floatRight\n`);
+            }
+
+            const region = `  region="${location.region?.name}"\n`;
+            stringToRender.push(region);
+
+            const house = `  house="${location.house}"\n`;
+            stringToRender.push(house);
+
+            const type = `  type="${location.buildCategory.title}"\n`;
+            stringToRender.push(type);
+
+            const status = `  status="${cap(location.projectStatus)}"\n`;
+            stringToRender.push(status);
+
+            const warp = `  warp="${location.warp}"\n`;
+            stringToRender.push(warp);
+
+            const projectLead = `  projectLead="${location.projectLead}"\n`;
+            stringToRender.push(projectLead);
+
+            const dateStarted = `  dateStarted="${location.dateStarted}"\n`;
+            stringToRender.push(dateStarted);
+
+            const dateCompleted = `  dateCompleted="${location.dateCompleted}"\n`;
+            stringToRender.push(dateCompleted);
+
+            const lastLine = `/>\n`;
+            stringToRender.push(lastLine);
+          }
+
+          return stringToRender.join('');
+        };
+
         fs.writeFileSync(
           `./pages/${folder.path}/${location.slug.current}.mdx`,
-          `# ` + location.title,
+          getStringToRender(),
         );
       }
     }),
