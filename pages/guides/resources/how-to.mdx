@@ -1,0 +1,15 @@
+test
+import Card, { Cards } from '../../components/Card';
+import guides from './how-to/\_meta.json';
+
+# How To Guides
+
+These guides will help you get started
+
+<Cards
+  num={3}
+  items={guides}
+  children={Object.keys(guides).map((key, i) => (
+    <Card key={i} title={guides[key].title} icon={guides[key].icon} href={/`guides/how-to/${key}`} />
+  ))}
+/>

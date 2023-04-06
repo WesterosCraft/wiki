@@ -1,7 +1,7 @@
 import Card, { Cards } from '../../components/Card';
-import guides from './getting-started/_meta.json';
+import guides from './resources/_meta.json';
 
-# Getting Started Guides
+# Resources Guides
 
 These guides will help you get started
 
@@ -12,9 +12,8 @@ These guides will help you get started
     <Card
       key={i}
       title={guides[key].title}
-      description={guides[key].description}
       icon={guides[key].icon}
-      href={guides[key].href}
+      href={`/guides/resources/${key}`}
     />
   ))}
 />

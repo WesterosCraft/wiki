@@ -1,32 +1,22 @@
 {
   "multimc-launcher-setup": {
     "title": "MultiMC Launcher Setup",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "curseforge-launcher-setup": {
     "title": "CurseForge/Twitch Launcher Setup",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "westeroscraft-custom-launcher": {
     "title": "(Legacy) - WesterosCraft Custom Launcher",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "gdlauncher-setup": {
     "title": "GDLauncher Setup",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "manually-building-the-custom-client": {
     "title": "Manually Building the Custom Client",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   }
 }

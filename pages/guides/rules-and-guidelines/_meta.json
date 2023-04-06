@@ -1,32 +1,22 @@
 {
   "canon-project-application-guidelines": {
     "title": "Canon Project Application Guidelines",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "general-building-guidelines": {
     "title": "General Building Guidelines",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "immersion-build-application-guidelines": {
     "title": "Immersion Build Application Guidelines",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "official-no-redo-rule": {
     "title": "Official No-Redo Rule",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "server-rules": {
     "title": "Community Rules",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   }
 }

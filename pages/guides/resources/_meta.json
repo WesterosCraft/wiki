@@ -1,38 +1,26 @@
 {
   "custom-resource-pack": {
     "title": "Custom Resource Pack",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "frequently-asked-questions": {
     "title": "Frequently Asked Questions",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "map-repository": {
     "title": "Map Repository",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "projects-orphanage": {
     "title": "Projects Orphanage",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "schem-sets": {
     "title": "Schem Sets",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   },
   "troubleshooting-guide": {
     "title": "Troubleshooting Guide",
-    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
-    "icon": "🌁",
-    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+    "icon": "🌁"
   }
 }
