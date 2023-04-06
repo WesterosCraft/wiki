@@ -1,0 +1,69 @@
+import { Tab, Tabs } from 'nextra-theme-docs';
+import Card, { Cards } from '../../components/Card';
+import gettingStartedGuides from './getting-started/_meta.json';
+import howToGuides from './how-to/_meta.json';
+import resourcesGuides from './resources/_meta.json';
+import rulesAndGuidelinesGuides from './rules-and-guidelines/_meta.json';
+
+# Guides
+
+This section of the docs includes end-to-end developer guides for integrating Livepeer in your application, as well as guides for participating in the network as an orchestrator or delegator.
+
+<Tabs items={['Getting Started', 'How To', 'Resources', 'Rules and Guidelines']}>
+  <Tab style={{ paddingTop: 8 }}>
+    <Cards
+      num={3}
+      children={Object.keys(gettingStartedGuides).map((key, i) => (
+        <Card
+          key={i}
+          title={gettingStartedGuides[key].title}
+          description={gettingStartedGuides[key].description}
+          icon={gettingStartedGuides[key].icon}
+          href={gettingStartedGuides[key].href ?? ''}
+        />
+      ))}
+    />
+  </Tab>
+  <Tab>
+    <Cards
+      num={3}
+      children={Object.keys(howToGuides).map((key, i) => (
+        <Card
+          key={i}
+          title={howToGuides[key].title}
+          description={howToGuides[key].description}
+          icon={howToGuides[key].icon}
+          href={howToGuides[key].href ?? ''}
+        />
+      ))}
+    />
+  </Tab>
+  <Tab>
+    <Cards
+      num={3}
+      children={Object.keys(resourcesGuides).map((key, i) => (
+        <Card
+          key={i}
+          title={resourcesGuides[key].title}
+          description={resourcesGuides[key].description}
+          icon={resourcesGuides[key].icon}
+          href={resourcesGuides[key].href ?? ''}
+        />
+      ))}
+    />
+  </Tab>
+  <Tab>
+    <Cards
+      num={3}
+      children={Object.keys(rulesAndGuidelinesGuides).map((key, i) => (
+        <Card
+          key={i}
+          title={rulesAndGuidelinesGuides[key].title}
+          description={rulesAndGuidelinesGuides[key].description}
+          icon={rulesAndGuidelinesGuides[key].icon}
+          href={rulesAndGuidelinesGuides[key].href ?? ''}
+        />
+      ))}
+    />
+  </Tab>
+</Tabs>

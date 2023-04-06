@@ -15,12 +15,13 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – WesterosCraft',
+      titleTemplate: '%s – WesterosCraft Wiki',
     };
   },
   sidebar: {
     defaultMenuCollapseLevel: 1,
   },
+  gitTimestamp: ({ timestamp }) => <>Last updated on {timestamp.toLocaleDateString()}</>,
 };
 
 export default config;

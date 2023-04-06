@@ -91,7 +91,7 @@ function createMdxFileFromLocationByRegion() {
 
           if (location.region) {
             stringToRender.push(
-              `import { ProjectDetails } from '../../components/ProjectDetails';\n\n`,
+              `import { ProjectDetails } from '../../../components/ProjectDetails';\n\n`,
             );
           }
 

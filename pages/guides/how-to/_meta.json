@@ -1,0 +1,32 @@
+{
+  "basic-building-guide-for-applicants": {
+    "title": "Basic Building Guide for Applicants",
+    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
+    "icon": "🌁",
+    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+  },
+  "installing-the-macro-keybind": {
+    "title": "Installing the Macro Keybind",
+    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
+    "icon": "🌁",
+    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+  },
+  "block-usage-guide": {
+    "title": "Block Usage Guide",
+    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
+    "icon": "🌁",
+    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+  },
+  "new-builders-guide": {
+    "title": "New Builders' Guide",
+    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
+    "icon": "🌁",
+    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+  },
+  "worldedit-basics": {
+    "title": "WorldEdit Basics",
+    "description": "Moving LPT from the Ethereum mainnet to Arbitrum and vice versa.",
+    "icon": "🌁",
+    "href": "/guides/delegating/bridge-lpt-to-arbitrum"
+  }
+}

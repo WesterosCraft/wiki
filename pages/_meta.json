@@ -1,26 +1,31 @@
 {
-  "index": "Home",
-  "-- Guides --": {
-    "type": "separator",
+  "index": {
+    "type": "page",
+    "title": "Home"
+  },
+  "guides": {
+    "type": "page",
     "title": "Guides"
   },
-  "getting-started": "Getting Started",
-  "how-to": "How To",
-  "resources": "Resources",
-  "rules-and-guidelines": "Rules & Guidelines",
-  "-- Builds --": {
-    "type": "separator",
+  "builds": {
+    "type": "page",
     "title": "Builds"
   },
-  "beyond-the-wall": "Beyond the Wall",
-  "crownlands": "Crownlands",
-  "dorne": "Dorne",
-  "iron-islands": "Iron Islands",
-  "north": "North",
-  "reach": "Reach",
-  "riverlands": "Riverlands",
-  "stormlands": "Stormlands",
-  "the-wall": "The Wall",
-  "vale": "Vale",
-  "westerlands": "Westerlands"
+  "blocks": {
+    "type": "page",
+    "title": "Blocks"
+  },
+  "404": {
+    "type": "page",
+    "theme": {
+      "timestamp": false
+    }
+  },
+  "500": {
+    "type": "page",
+    "theme": {
+      "timestamp": false,
+      "layout": "full"
+    }
+  }
 }
